@@ -37,7 +37,7 @@ var lyr_parcelle_2 = new ol.layer.Vector({
                 style: style_parcelle_2,
                 popuplayertitle: 'parcelle',
                 interactive: true,
-                title: '<img src="styles/legend/parcelle_2.png" /> parcelle'
+                title: '<img src="parcelle_2.png" /> parcelle'
             });
 var format_ETAB_2025_3 = new ol.format.GeoJSON();
 var features_ETAB_2025_3 = format_ETAB_2025_3.readFeatures(json_ETAB_2025_3, 
@@ -52,7 +52,7 @@ var lyr_ETAB_2025_3 = new ol.layer.Vector({
                 style: style_ETAB_2025_3,
                 popuplayertitle: 'ETAB_2025',
                 interactive: true,
-                title: '<img src="styles/legend/ETAB_2025_3.png" /> ETAB_2025'
+                title: '<img src="ETAB_2025_3.png" /> ETAB_2025'
             });
 
 lyr_ESRISatellite_0.setVisible(true);lyr_OSMStandard_1.setVisible(true);lyr_parcelle_2.setVisible(true);lyr_ETAB_2025_3.setVisible(true);
